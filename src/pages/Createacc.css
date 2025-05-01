@@ -1,0 +1,51 @@
+.style{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.style h1{
+    font-size: 2.2rem;
+    margin-left: 1.7rem;
+    transition: color 3s ease;
+}
+.style h1:hover{
+    color: red;
+}
+.heading{
+    font-size: 0.8rem;
+    color: rgb(26, 26, 190); 
+
+}
+.heading label{
+    font-size: 0.85rem;
+    color: #6e56cf;
+    display: block;
+    margin-bottom: 0.25rem;
+    font-weight: 600;
+
+}
+.heading input{
+  width: 100%;
+  font-size: 0.8rem;
+  padding: 0.3rem 0.8rem;
+  margin-bottom: 1rem;
+}
+.heading1{
+    margin-right: 3rem;
+}
+.heading1 input{
+    display: inline;
+    
+}
+.style button{
+    font-size: 0.8rem;
+    padding: 0.5rem 4.5rem;
+    background-color: #6e56cf;
+    color: white;
+    border: none;
+    margin-top: 4rem;
+    margin-left: 2.5rem;
+}

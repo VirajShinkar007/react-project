@@ -1,0 +1,60 @@
+.containerA {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 2vh;
+}
+.containerA h1 {
+  font-size: 2.3rem;
+  color: #333;
+  margin-bottom: 0.6rem;
+}
+.lorem {
+  color: rgb(11, 8, 8);
+  margin-left: 2rem;
+}
+.button1 {
+  margin-top: 1rem;
+}
+
+.button1 label {
+  font-size: 0.85rem;
+  color: #6e56cf;
+  display: block;
+  margin-bottom: 0.25rem;
+  font-weight: 600;
+}
+.button1 input {
+  width: 100%;
+  font-size: 1rem;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.button2 label {
+  font-size: 0.85rem;
+  color: #6e56cf;
+  display: block;
+  margin-bottom: 0.25rem;
+  font-weight: 600;
+}
+.button2 input {
+  width: 100%;
+  font-size: 1rem;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+.containerA button{
+    color:white;
+    background-color: #aea7a7;
+    padding: 0.75rem 6.1rem;
+    font-size: 1rem;
+    border: none;
+    margin-left: 1.4rem;
+    transition: background-color 2s ease;
+}
+.containerA button:hover{
+    background-color: #6e56cf;
+}
