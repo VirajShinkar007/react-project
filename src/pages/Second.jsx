@@ -1,5 +1,6 @@
 import React from "react";
 import './Second.css'
+import { Link } from "react-router-dom";
 
 const Second = () => {
   return (
@@ -24,8 +25,10 @@ const Second = () => {
         <input type="password" id="email" placeholder="Enter you password here" />
       </div>
       
-
-      <button>Login</button>
+    <Link to="/clicklogin">
+     <button>Login</button>
+     </Link>
+     
     </div>
 
     
