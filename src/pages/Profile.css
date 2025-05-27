@@ -1,3 +1,4 @@
+
 .account{
     display: flex;
     flex-direction: column;
@@ -7,6 +8,7 @@
     border: 1px solid rgb(149, 139, 139);
     border-bottom: none;
     padding: 21px;
+    background-color: rgb(190, 198, 235);
 }
 
 .profile-section{
